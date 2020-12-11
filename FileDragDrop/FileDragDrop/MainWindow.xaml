@@ -1,0 +1,28 @@
+﻿<Window x:Class="FileDragDrop.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:FileDragDrop"
+        mc:Ignorable="d"
+        Title="MainWindow" Width="350" Height="500" >
+    <Grid>
+        <Button 
+            x:Name="showDragDropWindowButton"
+            Content="Show DragDrop Window" 
+            HorizontalAlignment="Left" 
+            Margin="97,55,0,0" 
+            VerticalAlignment="Top" 
+            Width="173" 
+            Height="54" Click="Button_ShowDragDropWindowClick"/>
+        <Button 
+            x:Name="HideDragDropWindowButton_Copy"
+            Content="Hide DragDrop Window" 
+            HorizontalAlignment="Left" 
+            Margin="97,142,0,0" 
+            VerticalAlignment="Top" 
+            Width="173" 
+            Height="54" Click="Button_HideDragDropWindowClick"/>
+
+    </Grid>
+</Window>
