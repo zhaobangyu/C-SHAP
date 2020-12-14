@@ -1,0 +1,46 @@
+﻿<Window x:Class="_05_GetSystemInfo.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:_05_GetSystemInfo"
+        mc:Ignorable="d"
+        Title="获取PC信息" Height="400" Width="435">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="Auto" />
+        </Grid.RowDefinitions>
+
+        <!--CPU信息-->
+        <Button Content="CPU数量" Grid.Row="0" FontSize="15" Width="200" Height="40" Margin="10,10,0,0" Click="GetCpuCount_Click" HorizontalAlignment="Left"></Button>
+        <!--CPU信息-->
+        <Button Content="CPU信息" Grid.Row="0" FontSize="15" Width="200" Height="40" Margin="220,10,0,0" Click="GetCpuInfo_Click" HorizontalAlignment="Left"></Button>
+        <!--内存大小-->
+        <Button Content="内存大小" Grid.Row="1" FontSize="15" Width="200" Height="40" Margin="10,10,0,0" Click="GetMemory_Click" HorizontalAlignment="Left"></Button>
+        <!--硬盘容量-->
+        <Button Content="硬盘容量" Grid.Row="1" FontSize="15" Width="200" Height="40" Margin="220,10,0,0" Click="GetDiskSize_Click" HorizontalAlignment="Left"></Button>
+        <!--电脑型号-->
+        <Button Content="电脑型号" Grid.Row="2" FontSize="15" Width="200" Height="40" Margin="10,10,0,0" Click="GetPcVersion_Click" HorizontalAlignment="Left"></Button>
+        <!--分辨率-->
+        <Button Content="分辨率" Grid.Row="2" FontSize="15" Width="200" Height="40" Margin="220,10,0,0" Click="GetFenbianLv_Click" HorizontalAlignment="Left"></Button>
+        <!--显卡,芯片,显存大小-->
+        <Button Content="显卡,芯片,显存大小" Grid.Row="3" FontSize="15" Width="200" Height="40" Margin="10,10,0,0" Click="GetVideoController_Click" HorizontalAlignment="Left"></Button>
+        <!--系统版本-->
+        <Button Content="系统版本" Grid.Row="3" FontSize="15" Width="200" Height="40" Margin="220,10,0,0" Click="GetOsVersion_Click" HorizontalAlignment="Left"></Button>
+        <!--net版本-->
+        <Button Content="net版本" Grid.Row="4" FontSize="15" Width="200" Height="40" Margin="10,10,0,0" Click="GetNetVersion_Click" HorizontalAlignment="Left"></Button>
+        <!--主板识别码-->
+        <Button Content="主板标识(唯一识别码)" Grid.Row="4" FontSize="15" Width="200" Height="40" Margin="220,10,0,0" Click="GetComuterSystemProduct_Click" HorizontalAlignment="Left"></Button>
+        <!--GUID-->
+        <Button Content="电脑GUID" Grid.Row="5" FontSize="15" Width="200" Height="40" Margin="10,10,0,0" Click="GetPCGuid_Click" HorizontalAlignment="Left"></Button>
+    </Grid>
+</Window>

@@ -1,0 +1,19 @@
+﻿<Window x:Class="_01_Hello.Menu"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:_01_Hello"
+        mc:Ignorable="d"
+        Title="Menu" Height="450" Width="800">
+    <Grid>
+		<Menu Margin="0,0,643,381">
+			<MenuItem Header="First" >
+				<MenuItem Header="second"/>
+				<MenuItem Header="secend">
+					<MenuItem Header="third"/>
+				</MenuItem>
+			</MenuItem>
+		</Menu>
+    </Grid>
+</Window>

@@ -1,0 +1,15 @@
+﻿<Window x:Class="_01_Hello.ToolTip"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:_01_Hello"
+        mc:Ignorable="d"
+        Title="ToolTip" Height="450" Width="800">
+    <StackPanel Orientation='Vertical' >
+        <!--纯文本提示-->
+        <Button Content="提示工具演示"  VerticalAlignment="Top" Width="75" ToolTip = "ToolTip提示"/>
+        <!--还有一些控件没有ToolTip属性,不过去有ToolTipServicen属性,可以实现相同的功能-->
+        <Button Content="ToolTipService 演示" VerticalAlignment="Top" Width="200" ToolTipService.InitialShowDelay="1" ToolTipService.ToolTip="ToolTipService"/>
+    </StackPanel>
+</Window>

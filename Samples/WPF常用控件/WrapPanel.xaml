@@ -1,0 +1,24 @@
+﻿<Window x:Class="_01_Hello.WrapPanel"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:_01_Hello"
+        mc:Ignorable="d"
+        Title="WrapPanel" Height="200" Width="300">
+    <!--WrapPanel布局遵循的原则是从窗体左上角开始，多控件的自动换行。同StackPanel一样，它也有表示纵向和横向的Orientation属性。-->
+    <!--Orientation='Horizontal' 横向布局，从窗体中部，左侧开始从左向右排列控件,默认属性。
+    Orientation='Vertical'纵向布局-->
+    <WrapPanel>
+        <Button Name="btn1" Height="40" Width="40" Content="btn1" />
+        <Button Height="40" Width="40" Content="btn2" />
+        <Button Height="40" Width="40" Content="btn2" />
+        <Button Height="40" Width="40" Content="btn2" />
+        <Button Height="40" Width="40" Content="btn2" />
+        <Button Height="40" Width="40" Content="btn2" />
+        <Button Height="40" Width="40" Content="btn2" />
+        <Button Height="40" Width="40" Content="btn2" />
+        <Button Height="40" Width="40" Content="btn2" />
+        <Button Height="40" Width="40" Content="btn2" />
+    </WrapPanel>
+</Window>

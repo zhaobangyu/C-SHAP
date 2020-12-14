@@ -1,0 +1,9 @@
+﻿<Application x:Class="_03_自定插件.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:local="clr-namespace:_03_自定插件"
+             StartupUri="BitkyPoleControlWindow.xaml">
+    <Application.Resources>
+         
+    </Application.Resources>
+</Application>

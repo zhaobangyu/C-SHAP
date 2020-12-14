@@ -1,0 +1,16 @@
+﻿<Application x:Class="_01_Hello.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:local="clr-namespace:_01_Hello"
+             StartupUri="Loading.xaml">
+    <Application.Resources>
+
+        <LinearGradientBrush x:Key="Brush1" EndPoint="0,1" StartPoint="0,0">
+            <GradientStop Color="#FFF3F3F3" Offset="0"/>
+            <GradientStop Color="#FFEBEBEB" Offset="0.5"/>
+            <GradientStop Color="#FFDDDDDD" Offset="0.5"/>
+            <GradientStop Color="#FFCDCDCD" Offset="1"/>
+        </LinearGradientBrush>
+
+    </Application.Resources>
+</Application>

@@ -1,0 +1,23 @@
+﻿<Window x:Class="_01_Hello.SoundPlayerAction"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:_01_Hello"
+        mc:Ignorable="d"
+        Title="SoundPlayerAction" Height="450" Width="800">
+    <Grid>
+        <Button Content="简单范例(SoundPlayer)" Margin="34,23,604,355" Click="Button_SoundPlayer1"/>
+        <Button Content="同步播放(SoundPlayer)" Margin="34,70,604,308" Click="Button_SoundPlayer2"/>
+        <Button Content="异步播放(SoundPlayer)" Margin="34,117,604,261" Click="Button_SoundPlayer3"/>
+        <Button Content="循环播放(SoundPlayer)" Margin="34,164,604,214" Click="Button_SoundPlayer4"/>
+
+        <Button Content="播放(MediaPlayer)" Margin="206,23,432,355" Click="Button_MediaPlayer1"/>
+
+        <!--MediaElement播放音频-->
+        <MediaElement Source="res\\mp3Bg2.mp3" Margin="0,0,0,64" Name="mediaElement1" LoadedBehavior="Manual" UnloadedBehavior="Stop" Stretch="Fill" MediaOpened="mediaElement1_MediaOpened" Visibility="Collapsed" />
+        <Button Content="播放(MediaElement)" Margin="376,23,262,355" Click="Button_MediaElement1"/>
+        <Button Content="暂停(MediaElement)" Margin="376,70,262,308" Click="Button_MediaElement2"/>
+        <Button Content="停止(MediaElement)" Margin="376,117,262,261" Click="Button_MediaElement3"/>
+    </Grid>
+</Window>

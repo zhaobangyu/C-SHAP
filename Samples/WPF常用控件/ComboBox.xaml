@@ -1,0 +1,19 @@
+﻿<Window x:Class="_01_Hello.ComboBox"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:_01_Hello"
+        mc:Ignorable="d"
+        Title="ComboBox" Height="450" Width="800">
+    <Grid>
+        <ComboBox Name="ComboBox1" Width="200" Height="30" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="10,10,0,0">
+            <ComboBoxItem Content="太原"></ComboBoxItem>
+            <ComboBoxItem Content="北京" IsSelected="True"></ComboBoxItem>
+            <ComboBoxItem Content="石家庄"></ComboBoxItem>
+            <ComboBoxItem Content="哈尔滨"></ComboBoxItem>
+            <ComboBoxItem Content="合肥"></ComboBoxItem>
+            <ComboBoxItem Content="南京"></ComboBoxItem>
+        </ComboBox>
+    </Grid>
+</Window>

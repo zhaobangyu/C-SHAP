@@ -1,0 +1,31 @@
+﻿<Window x:Class="_01_Hello.TreeView"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:_01_Hello"
+        mc:Ignorable="d"
+        Title="TreeView" Height="450" Width="800">
+    <Grid>
+        <TreeView>
+            <TreeViewItem Header="中国">
+                <TreeViewItem Header="北京市">
+                    <TreeViewItem Header="朝阳区">
+
+                    </TreeViewItem>
+                </TreeViewItem>
+                <TreeViewItem Header="四川省">
+                    <TreeViewItem Header="广元市">
+                        <TreeViewItem Header="剑阁县">
+
+                        </TreeViewItem>
+                    </TreeViewItem>
+                    <TreeViewItem Header="雅安市">
+
+                    </TreeViewItem>
+                </TreeViewItem>
+            </TreeViewItem>
+        </TreeView>
+
+    </Grid>
+</Window>

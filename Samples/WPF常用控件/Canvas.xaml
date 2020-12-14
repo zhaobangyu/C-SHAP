@@ -1,0 +1,13 @@
+﻿<Window x:Class="_01_Hello.Canvas"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:_01_Hello"
+        mc:Ignorable="d"
+        Title="Canvas" Height="450" Width="800">
+    <Canvas>
+        <Button Name='btn1' Height='100' Width='100' Content='btn1' Margin='10'/>
+        <Button Name='btn2' Height='100' Width='100' Content='btn2' Canvas.Left="115" Canvas.Top="10"/>
+    </Canvas>
+</Window>

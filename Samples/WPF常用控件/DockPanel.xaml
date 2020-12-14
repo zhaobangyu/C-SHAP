@@ -1,0 +1,18 @@
+﻿<Window x:Class="_01_Hello.DockPanel"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:_01_Hello"
+        mc:Ignorable="d"
+        Title="DockPanel" Height="450" Width="800">
+    <!--Dockpanel默认布局原则，从左中位置开始，控件依次排列，最后一个控件将剩余区域从中心填充。-->
+    <DockPanel>
+        <Button DockPanel.Dock="Top" Name="btn1" Height="40" Width="40" Content="btn1" />
+        <Button DockPanel.Dock="Bottom" Height="40" Width="40" Content="btn2" />
+        <Button Height="40" Width="40" Content="btn2" />
+        <Button Height="40" Width="40" Content="btn2" />
+        <Button Height="40" Width="40" Content="btn2" />
+        <Button Height="40" Width="40" Content="btn2" />
+    </DockPanel>
+</Window>

@@ -1,0 +1,25 @@
+﻿<Window x:Class="WpfApp1.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp1"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="Auto" />
+        </Grid.RowDefinitions>
+
+        <!--文字区域-->
+        <Grid Height="100" Width="500" Grid.Row="0" ClipToBounds="True">
+            <local:RoilingTextBlock 
+                Background="Green"
+                Foreground="Teal"
+                FontSize="14"
+                Text="英超联赛官方公布了10月12日到10月18日进行的第七轮新冠病毒检测结果，在1575名接受检测的球员和工作人员中有8例阳性                  当地时间10月18日，美国明尼苏达大学传染病研究与政策中心主任迈克尔·奥斯特霍尔姆在接受美国全国广播公司采访时表示：接下来的6到12周或许将是整个新冠大流行中最黑暗的时期。 他表示，疫苗要到明年第三季度才能以有效的方式提供，即使是在这种情况下，美国一半的人口还是持怀疑态度。">
+            </local:RoilingTextBlock>
+        </Grid>
+    </Grid>
+</Window>
